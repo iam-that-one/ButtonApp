@@ -32,7 +32,7 @@ import android.widget.TextView
         lbl.text = count.toString()
         // count.toString().also { lbl.text = it }
         if (count > 0){
-            lbl.setTextColor(Color.parseColor("#00FF00"))
+            lbl.setTextColor(Color.parseColor("#8BC34A"))
         }
         if (count == 0){
             lbl.setTextColor(Color.parseColor("#000000"))
